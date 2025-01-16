@@ -6,7 +6,6 @@ Playwright UI tests against https://www.saucedemo.com/
   - [Dependencies](#dependencies)
   - [Setting up env](#setting-up-env)
   - [Running tests](#running-tests)
-    - [Video](#video)
   - [Wrapping up](#wrapping-up)
 
 ## Dependencies
@@ -31,8 +30,6 @@ Development has been performed within a virtual python environment, isolating im
 * `pytest --html=report.html --self-contained-html` -> generate html report
 * `pytest --tracing on` -> run with tracing to view test step breakdown and logs during execution
 * `pytest --headed --browser webkit --browser firefox --browser chromium` -> runs headed on all browsers 
-
-### Video
 * append `--video on` to the run command to capture video recordings of each test
 
 ## Wrapping up
