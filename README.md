@@ -1,18 +1,17 @@
 # challenge-playwright-python
 
-Playwright UI tests against https://www.saucedemo.com/
+[![Run playwright tests](https://github.com/alexandlazaris/challenge-playwright-python/actions/workflows/run-tests.yml/badge.svg)](https://github.com/alexandlazaris/challenge-playwright-python/actions/workflows/run-tests.yml)
 
 - [challenge-playwright-python](#challenge-playwright-python)
   - [Dependencies](#dependencies)
   - [Setting up env](#setting-up-env)
   - [Running tests](#running-tests)
+  - [Workflows](#workflows)
   - [Wrapping up](#wrapping-up)
 
 ## Dependencies
 
-- python3
-- pip
-- mac
+- python3, pip
 - https://playwright.dev/python/docs/intro
 
 ## Setting up env
@@ -31,6 +30,12 @@ Development has been performed within a virtual python environment, isolating im
 * `pytest --tracing on` -> run with tracing to view test step breakdown and logs during execution
 * `pytest --headed --browser webkit --browser firefox --browser chromium` -> runs headed on all browsers 
 * append `--video on` to the run command to capture video recordings of each test
+
+## Workflows
+
+For each PR raised, there is a workflow to run all tests and for 2 artficats to be stored stored post-completion:
+1. video recording of tests
+2. html report of test suite
 
 ## Wrapping up
 
