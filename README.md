@@ -7,7 +7,6 @@
   - [Setting up env](#setting-up-env)
   - [Running tests](#running-tests)
   - [Workflows](#workflows)
-  - [Wrapping up](#wrapping-up)
 
 ## Dependencies
 
@@ -15,8 +14,6 @@
 - https://playwright.dev/python/docs/intro
 
 ## Setting up env
-
-Development has been performed within a virtual python environment, isolating impact and dependencies from the host system.
 
 1. clone the repo
 2. run `python3 -m venv venv` to create a virtual env
@@ -33,10 +30,6 @@ Development has been performed within a virtual python environment, isolating im
 
 ## Workflows
 
-For each PR raised, there is a workflow to run all tests and for 2 artficats to be stored stored post-completion:
+This repo contains a workflow on each PR to run all tests. The following artifacts are stored:
 1. video recording of tests
 2. html report of test suite
-
-## Wrapping up
-
-Run `deactivate` in your cli tab running this repo to exit the venv.
