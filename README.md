@@ -1,6 +1,6 @@
 # challenge-playwright-python
 
-[![Run playwright tests](https://github.com/alexandlazaris/challenge-playwright-python/actions/workflows/run-tests.yml/badge.svg)](https://github.com/alexandlazaris/challenge-playwright-python/actions/workflows/run-tests.yml)
+[![e2e tests](https://github.com/alexandlazaris/challenge-playwright-python/actions/workflows/run-tests.yml/badge.svg)](https://github.com/alexandlazaris/challenge-playwright-python/actions/workflows/run-tests.yml)
 
 - [challenge-playwright-python](#challenge-playwright-python)
   - [Dependencies](#dependencies)
