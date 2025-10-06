@@ -1,4 +1,4 @@
-from tests.page_objects.base import *
+from .base import *
 
 class CheckoutPage(Base):
     def __init__(self, page: Page):
