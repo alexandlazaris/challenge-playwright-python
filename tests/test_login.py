@@ -1,8 +1,7 @@
-import re
 from playwright.sync_api import Page, expect
-from constants import *
-from login_page import LoginPage
-from inventory_page import InventoryPage
+from tests.constants import *
+from .page_objects.login_page import LoginPage
+from .page_objects.inventory_page import InventoryPage
 
 def test_login_as_standard_user(page: Page):
     # arrange
