@@ -1,23 +1,19 @@
 # challenge-playwright-python
 
-Playwright UI tests against https://www.saucedemo.com/
+[![e2e tests](https://github.com/alexandlazaris/challenge-playwright-python/actions/workflows/run-tests.yml/badge.svg)](https://github.com/alexandlazaris/challenge-playwright-python/actions/workflows/run-tests.yml)
 
 - [challenge-playwright-python](#challenge-playwright-python)
   - [Dependencies](#dependencies)
   - [Setting up env](#setting-up-env)
   - [Running tests](#running-tests)
-  - [Wrapping up](#wrapping-up)
+  - [Workflows](#workflows)
 
 ## Dependencies
 
-- python3
-- pip
-- mac
+- python3, pip
 - https://playwright.dev/python/docs/intro
 
 ## Setting up env
-
-Development has been performed within a virtual python environment, isolating impact and dependencies from the host system.
 
 1. clone the repo
 2. run `python3 -m venv venv` to create a virtual env
@@ -32,6 +28,8 @@ Development has been performed within a virtual python environment, isolating im
 * `pytest --headed --browser webkit --browser firefox --browser chromium` -> runs headed on all browsers 
 * append `--video on` to the run command to capture video recordings of each test
 
-## Wrapping up
+## Workflows
 
-Run `deactivate` in your cli tab running this repo to exit the venv.
+This repo contains a workflow on each PR to run all tests. The following artifacts are stored:
+1. video recording of tests
+2. html report of test suite

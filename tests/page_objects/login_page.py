@@ -1,4 +1,4 @@
-from base import *
+from .base import *
 
 class LoginPage(Base):
     def __init__(self, page: Page):
