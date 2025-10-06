@@ -1,5 +1,5 @@
 from playwright.sync_api import Page, expect
-from tests.constants import *
+from .constants import *
 from .page_objects.login_page import LoginPage
 from .page_objects.inventory_page import InventoryPage
 
